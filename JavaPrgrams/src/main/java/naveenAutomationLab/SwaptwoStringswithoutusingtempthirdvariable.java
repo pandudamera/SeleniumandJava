@@ -14,7 +14,7 @@ public class SwaptwoStringswithoutusingtempthirdvariable {
 		//Store initial string a in string b:
 		b=a.substring(0,a.length()-b.length());
 		
-		//3.Store initial string b in stfing a
+		//3.Store initial string b in string a
 		a=a.substring(b.length());
 		System.out.println("The Value of a and b after swapping::");
 		System.out.println("The Value of a is:"+a);

@@ -2,7 +2,7 @@ package naveenAutomationLab;
 
 import java.util.HashSet;
 
-public class DuplicatesElements {
+public class DuplicatesString {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

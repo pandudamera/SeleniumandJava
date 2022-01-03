@@ -18,8 +18,8 @@ public class CallByReference {
 		op.b=3;
 		
 		System.out.println("Before Passing: " +(op.a+op.b));
-		add(op,op); // Call method
-		System.out.println("After Passing: " +(op.a+op.b));
+		add(op,op1); // Call method
+		System.out.println("After Passing: " +(op.a+op1.b));
 
 	}
 

@@ -18,7 +18,7 @@ public class ThirdClass {
 		}
 		
 		public void sub()
-		{ // Contritiy behavior 
+		{ // contrite behavior 
 			result=a-b;
 			System.out.println("Subtraction of A & B is : " +result);
 		}

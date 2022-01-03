@@ -15,7 +15,12 @@ public class Reversenterger {
 		System.out.println("Reverse Number is::" +rev);
 		//2.Approch
 		long n=5678;
-		System.out.println(new StringBuffer(String.valueOf(n)).reverse());
+		
+		StringBuffer sb=new StringBuffer("5678");
+		StringBuffer m=sb.reverse();
+		System.out.println(m);
+		//System.out.println(new StringBuffer(String.valueOf(n)).reverse());
+		
 
 	}
 

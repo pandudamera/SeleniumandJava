@@ -15,7 +15,7 @@ public class AssetionExamples {
 	@Test
 	public void two() {
 		
-		Assert.assertEquals(404, 200);// Hard Assertion : If test cases gets fail(halt) that test test case skipped execution remaining  test cases will run 
+		Assert.assertEquals(404, 200);// Soft Assertion : If test cases get fail(halt) that test test case skipped execution remaining  test cases will run 
 		System.out.println("Hi, I am Test Two");
 
 	}

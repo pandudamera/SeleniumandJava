@@ -4,8 +4,9 @@ public abstract class FirstAbtract {
 	
 	int x=100;
 	
-	// Abstract Class: When requirements fixed(know) we will go to class[cortitiy behavior] and 
-    //The requirements dynamic vendor to vendor  we will go with abstract class 
+	// Abstract Class: // The requirements are dynamic vendor to vendor  we will go with abstract class
+	//Class : When requirements is fixed(know) we will go to class[cortitiy behavior] and 
+     
 		
 	
 	public void m1()

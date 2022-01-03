@@ -1,140 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="2" total="13" passed="11">
+<testng-results skipped="0" failed="2" ignored="0" total="2" passed="0">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="108" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
+  <suite name="Default suite" duration-ms="36" started-at="2021-12-13T15:44:16 IST" finished-at="2021-12-13T15:44:16 IST">
     <groups>
     </groups>
-    <test name="Unit Test" duration-ms="53" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
-      <class name="com.testNG.dataProvider.DataProviderParameterExample">
-        <test-method status="PASS" signature="commonScenarios(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@7c30a502]" name="commonScenarios" duration-ms="2" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Common scenario data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- commonScenarios -->
-        <test-method status="PASS" signature="scenario1(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@7c30a502]" name="scenario1" duration-ms="0" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario1 data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario1 -->
-        <test-method status="PASS" signature="scenario2(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@7c30a502]" name="scenario2" duration-ms="0" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario2 data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario2 -->
-      </class> <!-- com.testNG.dataProvider.DataProviderParameterExample -->
-    </test> <!-- Unit Test -->
-    <test name="IntegrationLevel" duration-ms="3" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
-      <class name="com.testNG.dataProvider.DataProviderParameterExample">
-        <test-method status="PASS" signature="commonScenarios(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@6442b0a6]" name="commonScenarios" duration-ms="1" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Common scenario data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- commonScenarios -->
-        <test-method status="PASS" signature="scenario1(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@6442b0a6]" name="scenario1" duration-ms="0" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario1 data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario1 -->
-        <test-method status="PASS" signature="scenario2(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@6442b0a6]" name="scenario2" duration-ms="1" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario2 data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario2 -->
-      </class> <!-- com.testNG.dataProvider.DataProviderParameterExample -->
-    </test> <!-- IntegrationLevel -->
-    <test name="AcceptanceLevel" duration-ms="1" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
-      <class name="com.testNG.dataProvider.DataProviderParameterExample">
-        <test-method status="PASS" signature="commonScenarios(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@1554909b]" name="commonScenarios" duration-ms="0" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Common scenario data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- commonScenarios -->
-        <test-method status="PASS" signature="scenario2(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@1554909b]" name="scenario2" duration-ms="0" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario2 data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario2 -->
-        <test-method status="PASS" signature="scenario1(java.lang.String)[pri:0, instance:com.testNG.dataProvider.DataProviderParameterExample@1554909b]" name="scenario1" duration-ms="0" started-at="2021-12-03T17:17:07 IST" data-provider="scenarioData" finished-at="2021-12-03T17:17:07 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Scenario1 data]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- scenario1 -->
-      </class> <!-- com.testNG.dataProvider.DataProviderParameterExample -->
-    </test> <!-- AcceptanceLevel -->
-  </suite> <!-- Suite -->
-  <suite name="Suite (0)" duration-ms="4" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
-    <groups>
-      <group name="Regression">
-        <method signature="TestCaseGrouping.testCaseOne()[pri:0, instance:com.testNG.examples.TestCaseGrouping@21bcffb5]" name="testCaseOne" class="com.testNG.examples.TestCaseGrouping"/>
-        <method signature="TestCaseGrouping.testCaseTwo()[pri:0, instance:com.testNG.examples.TestCaseGrouping@21bcffb5]" name="testCaseTwo" class="com.testNG.examples.TestCaseGrouping"/>
-      </group> <!-- Regression -->
-    </groups>
-    <test name="Group Functionality" duration-ms="4" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
-      <class name="com.testNG.examples.TestCaseGrouping">
-        <test-method status="PASS" signature="testCaseOne()[pri:0, instance:com.testNG.examples.TestCaseGrouping@21bcffb5]" name="testCaseOne" duration-ms="0" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
+    <test name="Default test" duration-ms="36" started-at="2021-12-13T15:44:16 IST" finished-at="2021-12-13T15:44:16 IST">
+      <class name="com.testNG.examples.TestParameters">
+        <test-method status="FAIL" signature="testCaseOne(java.lang.String)[pri:0, instance:com.testNG.examples.TestParameters@3b0143d3]" name="testCaseOne" duration-ms="0" started-at="2021-12-13T15:44:16 IST" finished-at="2021-12-13T15:44:16 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'browser' is required by @Test on method testCaseOne but has not been marked @Optional or defined
+in C:\Users\pandu.damera\AppData\Local\Temp\testng-eclipse-2045868536\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'browser' is required by @Test on method testCaseOne but has not been marked @Optional or defined
+in C:\Users\pandu.damera\AppData\Local\Temp\testng-eclipse-2045868536\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseOne -->
-        <test-method status="PASS" signature="testCaseTwo()[pri:0, instance:com.testNG.examples.TestCaseGrouping@21bcffb5]" name="testCaseTwo" duration-ms="0" started-at="2021-12-03T17:17:07 IST" finished-at="2021-12-03T17:17:07 IST">
+        <test-method status="FAIL" signature="testCaseTwo(java.lang.String, java.lang.String)[pri:0, instance:com.testNG.examples.TestParameters@3b0143d3]" name="testCaseTwo" duration-ms="0" started-at="2021-12-13T15:44:16 IST" finished-at="2021-12-13T15:44:16 IST">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'userName' is required by @Test on method testCaseTwo but has not been marked @Optional or defined
+in C:\Users\pandu.damera\AppData\Local\Temp\testng-eclipse-2045868536\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'userName' is required by @Test on method testCaseTwo but has not been marked @Optional or defined
+in C:\Users\pandu.damera\AppData\Local\Temp\testng-eclipse-2045868536\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:268)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:356)
+at org.testng.internal.Parameters.createParameters(Parameters.java:700)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:875)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:789)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(ArrayList.java:1257)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCaseTwo -->
-      </class> <!-- com.testNG.examples.TestCaseGrouping -->
-    </test> <!-- Group Functionality -->
-  </suite> <!-- Suite (0) -->
+      </class> <!-- com.testNG.examples.TestParameters -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

@@ -3,7 +3,8 @@ package com.test;
 public class DuplicateElementNumber {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		
 		int a[] = { 1, 2, 2,3, 4, 4,5, 6, 6,7};
 		int n = a.length;
 		int j = 0;
